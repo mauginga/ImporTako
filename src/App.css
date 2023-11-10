@@ -8,3 +8,14 @@
   font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#NavLink {
+  display: inline-flexbox;
+  text-decoration: none;
+  color: black;
+}
+#NavLink:hover {
+  display: inline-flexbox;
+  text-decoration: none;
+  color: red;
+}
