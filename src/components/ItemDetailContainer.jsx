@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 
 import { products } from '../data/products';
-import { ItemDetail } from './Itemdetail';
+import { ItemDetail } from './ItemDetail';
 
 
 export const ItemDetailContainer = () => {
