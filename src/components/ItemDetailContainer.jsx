@@ -2,8 +2,9 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 
-import { products } from '../data/products';
 import { ItemDetail } from './ItemDetail';
+import { products } from '../data/products';
+
 
 
 export const ItemDetailContainer = () => {
