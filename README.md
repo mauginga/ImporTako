@@ -1,8 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este simulador de React + Vite es el primer projecto en el cual trabaje.
+Conectando a la base Firebase (propiedad de Google) como DB y utilizando customHooks para su manipulación.
+Luego de navegar y cargar los productos necesarios. El usuario se dirige al carrito para realizar la confirmación de la compra. Al finalizar le retorna un Numero de Orden, la misma sube a Firebase a traves de un adDoc.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
