@@ -7,9 +7,9 @@
  export const Item = ({item}) => {
     return (
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={item.pictureUrl} />
+          <Card.Img variant="top" src={item.pictureUrl} style={{ width: 'auto' , height: '200px' }} />
           <Card.Body>
-            <Card.Title>{item.titule}</Card.Title>
+            <Card.Title>{item.title}</Card.Title>
             <Card.Text>{item.description}</Card.Text>
             <Card.Text>
                 ${item.price}
