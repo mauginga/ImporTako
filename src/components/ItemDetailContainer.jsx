@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import {getFirestore, getDoc, doc} from "firebase/firestore";
 
-import { ItemDetail } from './Itemdetail';
+import { ItemDetail } from './ItemDetail';
 
 
 
